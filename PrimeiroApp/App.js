@@ -28,10 +28,12 @@ const TelaEntrar = () => {
           secureTextEntry={true}
         />
       </View>
-      <TouchableOpacity style={estiloso.botao}></TouchableOpacity>
-
-
-
+      <TouchableOpacity style={estiloso.botao_entrar}>
+        <Text style={estiloso.texto_botao}>Entrar</Text>
+      </TouchableOpacity>
+    </View>
     </SafeAreaView>
   )
 }
+
+export default TelaEntrar;
